@@ -21,7 +21,6 @@
 
 .link-logo{
     color: #FF0000;
-  
 
 }
 
@@ -40,12 +39,21 @@
     color: rgb(151, 148, 148);
 }
 
+.icons a{
+    color: rgb(151, 148, 148);
+}
+
+.icons a:hover{
+    color: rgb(151, 148, 148);
+}
+
 #search-box{
     margin: 0px 40px;
 }
 
 .barra{
     padding: 8px 8px;
+    border-bottom: 1px;
 }
 
 .logo{
@@ -68,3 +76,11 @@
 .sidebar{
     background-color: #F5F5F5;
 }
+
+.acceso-login a{
+    color: #FF0000;
+}
+.acceso-login a:hover{
+    color: #FF0000;
+}
+
