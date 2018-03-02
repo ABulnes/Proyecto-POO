@@ -5,6 +5,7 @@
 .btn-light{
     background-color: #FFFFFF;
     border-color: #ffffff;
+    border-radius: 200px;
 }
 
 .btn-light:hover{
