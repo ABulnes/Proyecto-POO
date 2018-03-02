@@ -1,0 +1,57 @@
+.bg-light{
+  background-color: #ffffff!important;
+}
+
+.btn-light{
+    background-color: #FFFFFF;
+    border-color: #ffffff;
+}
+
+.btn-light:hover{
+    background-color: #FFFFFF;
+    border-color: #ffffff;
+}
+
+.logo-container{
+    width: 80px;
+    height: 24px;
+    flex: none;
+}
+
+.link-logo{
+    color: #FF0000;
+  
+
+}
+
+.menu-icon{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+   
+}
+
+#bar{
+    color: rgb(151, 148, 148);
+}
+
+#search-box{
+    margin: 0px 40px;
+}
+
+.barra{
+    padding: 8px 8px;
+}
+
+.logo{
+    margin: auto;
+    margin-top: 10px;
+}
+
+#usuario-cuenta{
+    border-radius: 300px;
+}
