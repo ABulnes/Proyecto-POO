@@ -52,6 +52,18 @@
     margin-top: 10px;
 }
 
+.logo a:hover{
+    color: #FF0000;
+}
+
 #usuario-cuenta{
     border-radius: 300px;
+}
+
+.main{
+    background-color: #FAFAFA;
+}
+
+.sidebar{
+    background-color: #F5F5F5;
 }
