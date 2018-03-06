@@ -14,19 +14,19 @@
 <body>
 
     <!--Barra de navegacion de YouTube -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="barra">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="barra">
         <button class="btn btn-light" type="button">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">
+            <a class="nav-item nav-link active" href="index.html">
                 <div class="logo-container align-middle">
                     <img src="img/yt-logo-2.png" alt="" class="logo">
                 </div>
             </a>
             <div class="container" id="busqueda">
                 <form class="form-inline">
-                    <input type="text" placeholder="Buscar" class="form-control" id="search-box">
+                    <input type="text" placeholder="Buscar" class="form-control d-none d-sm-block" id="search-box">
                     <button class="btn btn-light btn-circle" id="search-btn">
                         <i class="fas fa-search fa-lg"></i>
                     </button>
@@ -49,10 +49,10 @@
         </div>
     </nav>
     <!--Cuerpo de Youtube -->
-    <div class="container-fluid no-padding">
+    <div class="container-fluid no-padding mt-5">
         <div class="row no-gutters">
             <!--Barra lateral de YouTube-->
-            <aside class="sidebar col-xl-2 col-lg-2 col-md-2 nav flex-column" id="barraNav">
+            <aside class="sidebar col-xl-2 col-lg-2 col-md-2 nav flex-column d-none d-lg-block" id="barraNav">
                 <div class="border-bottom pt-2 pb-2">
                     <div class="entrada">
                         <a href="index.html" title="Inicio">
@@ -191,16 +191,45 @@
             </aside>
 
             <main class="col-md-10  main">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nulla sequi. Minus et, culpa ipsam corrupti consequatur nihil
-                rerum eius sequi nostrum omnis aliquam, qui voluptatum error perspiciatis mollitia. Distinctio.
-                <br>
-                <br>
-                <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta sequi esse, non cumque quas ratione aut provident,
-                est dolorem quasi ut reprehenderit doloremque maxime adipisci. Atque possimus tempora architecto aspernatur
-                <br>
+                <div class="body-grid">
+                    <div class="content-name">
+                        Lo Mejor de YouTube
+                    </div>
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate dolorum unde sapiente laudantium, amet sed explicabo
+                        earum cum animi voluptates tempora exercitationem! Nesciunt, fugiat illum earum voluptatum veniam
+                        quaerat?
+                    </div>
+
+                    <div class="content-name">
+                        Creador en crecimiento 
+                    </div>
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate dolorum unde sapiente laudantium, amet sed explicabo
+                        earum cum animi voluptates tempora exercitationem! Nesciunt, fugiat illum earum voluptatum veniam
+                        quaerat?
+                    </div>
+
+                    <div class="content-name">
+                        Música
+                    </div>
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate dolorum unde sapiente laudantium, amet sed explicabo
+                        earum cum animi voluptates tempora exercitationem! Nesciunt, fugiat illum earum voluptatum veniam
+                        quaerat?
+                    </div>
+
+                    <div class="content-name">
+                        Deportes
+                    </div>
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate dolorum unde sapiente laudantium, amet sed explicabo
+                        earum cum animi voluptates tempora exercitationem! Nesciunt, fugiat illum earum voluptatum veniam
+                        quaerat?
+                    </div>
             </main>
 
-        </div>
+            </div>
 
 </body>
 

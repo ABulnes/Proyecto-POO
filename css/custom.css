@@ -1,165 +1,187 @@
-body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifS
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifS;
 }
 
-.bg-light{
-  background-color: #ffffff!important;
+.bg-light {
+  background-color: #ffffff !important;
 }
 
-
-.btn-light{
-    background-color: #FFFFFF;
-    border-color: #ffffff;
-    border-radius: 50%;
+.btn-light {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 50%;
 }
 
-.btn-light:hover{
-    background-color: #FFFFFF;
-    border-color: #ffffff;
+.btn-light:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
-.main{
-    background-color: #FAFAFA;
-    padding: 0.75rem 0.75rem;
+.main {
+  background-color: #fafafa;
+  padding: 0.75rem 0.75rem;
 }
 
-.sidebar{
-    background-color: #F5F5F5;
+.sidebar {
+  background-color: #f5f5f5;
 }
 
-.logo{
-    max-width: 100%;
-    height: auto;
-    margin: auto;
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
 
-.logo-container{
-    width: 80px;
-    height: 24px;
-    flex: none;
-    align-content: auto;
+.logo-container {
+  width: 80px;
+  height: 24px;
+  flex: none;
+  align-content: auto;
 }
-.end-btn{
-    margin: 0px 10px;
+.end-btn {
+  margin: 0px 10px;
 }
-.no-padding{
-    padding: 0px 0px;
-}
-
-.fas{
-    color: #888888;
+.no-padding {
+  padding: 0px 0px;
 }
 
-
-.entrada:hover{
-    background-color: rgba(173, 164, 164, 0.432);
-}
-.string-text{
-    padding: 8px 24px;
-    color: #888888;
-    font-size: 13px;
-    font-weight: bold;
+.fas {
+  color: #888888;
 }
 
-.footer-links{
-    color: #888888;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 12.5px;
+.entrada:hover {
+  background-color: rgba(173, 164, 164, 0.432);
+}
+.string-text {
+  padding: 8px 24px;
+  color: #888888;
+  font-size: 13px;
+  font-weight: bold;
 }
 
-.footer-links:hover{
-    color: #888888;
-    text-decoration: none;
+.footer-links,
+.history-links {
+  color: #888888;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12.5px;
+}
+
+.history-links {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+.footer-links:hover,
+.history-links:hover {
+  color: #888888;
+  text-decoration: none;
 }
 /* Codigo importado de Codepen.io*/
 .btn-circle.btn-xl {
-    width: 70px;
-    height: 70px;
-    padding: 10px 16px;
-    border-radius: 35px;
-    line-height: 1.33;
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  line-height: 1.33;
 }
 
 .btn-circle {
-    width: 30px;
-    height: 30px;
-    padding: 6px 0px;
-    border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 1.42857;
+}
+
+.entrada a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.entrada a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.img-size {
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+}
+
+.icon-margin {
+  margin-right: 40px;
+}
+
+.text-margin {
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+
+.content {
+  width: 100%;
+  height: 15%;
+  border-bottom: 0.5px solid rgb(230, 230, 230);
+  margin-bottom: 1.2rem;
+}
+
+.body-grid {
+  width: 856px;
+  height: 100%;
+  margin: 20px 80px;
+  padding: 5px 5px;
+}
+.content-name {
+  margin: 5px 0px 20px;
+  font-weight: bold;
+}
+
+.no-bottom {
+  border-bottom: none;
+}
+
+.video-cont {
+  height: 13%;
+}
+
+.mt-5 {
+  margin-top: 3.3rem !important;
+}
+
+.sm-text{
+    font-size: 16px;
     text-align: center;
-    line-height: 1.42857;
+}
+#link-acceso {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.entrada a{
-    color: #000000;
-    text-decoration: none;
+#busqueda {
+  width: 720px;
+  height: 32px;
+  margin: 0px 40px 0px 70px;
+  padding: 0px 0px;
 }
 
-.entrada a:hover{
-    color: #000000;
-    text-decoration: none;
+#search-box {
+  width: 80%;
 }
 
-.img-size{
-    width: 13%;
-    height: 13%;
+#search-btn {
+  width: 5%;
+  margin: 0px 2px;
+  text-align: center;
 }
 
-.icon-margin{
-    margin-right: 40px;
+#user-btn {
+  margin: 0px 20px 0px 20px;
 }
 
-.text-margin{
-    margin-left: 40px;
-    margin-bottom: 0px;
-}
-
-.content{
-    margin: 20px 80px;
-    padding: 5px 5px;
-    width:  856px;
-    height: 211px;
-    border-bottom: 0.5px solid rgb(230,230,230);
-}
-
-.content-name{
-    margin: 5px 80px;
-    font-weight: bold;
-    
-}
-#link-acceso{
-    color: red;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#busqueda{
-    width: 720px;
-    height: 32px;
-    margin: 0px 40px 0px 70px;
-    padding: 0px 0px;
-}
-
-#search-box{
-    width: 80%;
-}
-
-#search-btn{
-    width: 5%;
-    margin: 0px 2px;
-    text-align: center;
-}
-
-#user-btn{
-    margin: 0px 20px 0px 20px;
-}
-
-#barra{
-    box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
-    
-    
-}
-
-.mt-5{
-    margin-top: 3.3rem!important;
+#barra {
+  box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
 }

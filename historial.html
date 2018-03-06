@@ -14,19 +14,19 @@
 <body>
 
     <!--Barra de navegacion de YouTube -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="barra">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="barra">
         <button class="btn btn-light" type="button">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">
+            <a class="nav-item nav-link active" href="index.html">
                 <div class="logo-container align-middle">
                     <img src="img/yt-logo-2.png" alt="" class="logo">
                 </div>
             </a>
             <div class="container" id="busqueda">
                 <form class="form-inline">
-                    <input type="text" placeholder="Buscar" class="form-control" id="search-box">
+                    <input type="text" placeholder="Buscar" class="form-control d-none d-sm-block" id="search-box">
                     <button class="btn btn-light btn-circle" id="search-btn">
                         <i class="fas fa-search fa-lg"></i>
                     </button>
@@ -49,10 +49,10 @@
         </div>
     </nav>
     <!--Cuerpo de Youtube -->
-    <div class="container-fluid no-padding">
+    <div class="container-fluid no-padding mt-5">
         <div class="row no-gutters">
             <!--Barra lateral de YouTube-->
-            <aside class="sidebar col-xl-2 col-lg-2 col-md-2 nav flex-column" id="barraNav">
+            <aside class="sidebar col-xl-2 col-lg-2 col-md-2 nav flex-column d-none d-lg-block" id="barraNav">
                 <div class="border-bottom pt-2 pb-2">
                     <div class="entrada">
                         <a href="index.html" title="Inicio">
@@ -191,13 +191,62 @@
             </aside>
 
             <main class="col-md-10  main">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, nulla sequi. Minus et, culpa ipsam corrupti consequatur nihil
-                rerum eius sequi nostrum omnis aliquam, qui voluptatum error perspiciatis mollitia. Distinctio.
-                <br>
-                <br>
-                <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta sequi esse, non cumque quas ratione aut provident,
-                est dolorem quasi ut reprehenderit doloremque maxime adipisci. Atque possimus tempora architecto aspernatur
-                <br>
+                <div class="body-grid">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="sm-text">Debes acceder a tu cuenta para ver el historial de reproducciones.
+                                <a href="#">Mas información</a>
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <h5>Tipo de Historial</h5>
+                            <table class="table mt-4">
+                                <tr>
+                                    <td>
+                                        <b>Historial de reproducciones</b>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="rd-historial">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Historial de busqueda</b>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="rd-historial">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Comentarios</b>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="rd-historial">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Comunidad</b>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="rd-historial">
+                                    </td>
+                                </tr>
+                            </table>
+                            <a href="#" class="history-links">
+                                <div class="content no-bottom mb-0">
+                                    BORRAR TODO EL HISTORIAL DE REPRODUCCCIONES
+                                </div>
+                            </a>
+                            <a href="#" class="history-links">
+                                <div class="content no-bottom mb-0">
+                                    PAUSAR EL HISTORIAL DE REPRODUCCCIONES
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </main>
 
         </div>
