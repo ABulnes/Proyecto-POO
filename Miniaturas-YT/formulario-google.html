@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./estilo-google.css" rel="stylesheet" type="text/css">
+    <title>Google Form</title>
+ </head>
+
+  <body>
+
+    <div class="encabezado-google">
+      <div class="contenido-encabezado">
+        <img class="logo" src="imagenes/logo-google.png">
+        <span class="boton-iniciarsesion">
+          <button class="btn btn-primary" type="submit">Iniciar Sesion</button>
+        </span>
+        <hr>
+      </div>
+    </div>
+
+     <h1>Crea tu cuenta de Google</h1>
+
+      <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-4 col-sm-4 col-12">
+              <div>
+                <h2>Solo necesitas una cuenta</h2>
+                <p>Accede a todos los servicios de Google con una cuenta gratuita.</p>
+
+                <img class="logo-strip" src="imagenes/logo-strip.png"> <br><br><br><br>
+
+                <h2>Tu información siempre disponible</h2>
+                <p>Cambia de dispositivo y continúa desde la última acción que hayas realizado.</p>
+
+                <img class="devices" src="imagenes/devices.png">
+
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-4 col-sm-4 col-12">
+               <div class="alert alert-secondary">
+                <label>Nombre</label> <br>
+                <input type="text" name="txt-nombre" placeholder="Nombre">
+                <input type="text" name="txt-apellido" placeholder="Apellido">
+
+                <label>Tu dirección de correo electrónico</label> <br>
+                <input  type="email" name="txt-email" id="txt-email" placeholder="ejemplo@email.com"> <br>
+
+                <label>Contraseña</label> <br>
+                <input type="password" name="txt-passsword"> <br>
+                <label>Confirma tu contraseña</label> <br>
+                <input type="password" name="txt-passsword"> <br>
+
+                <label>Fecha de Nacimiento</label> <br>
+                <input type="date" name="dt-fecha-nacimiento" id="dt-fecha-nacimiento"> <br>
+
+                <label>Sexo</label> <br>
+                <select name="slc-sexo" id="slc-sexo" >
+                    <option>Selecciona tu género</option>
+                    <option value="1">Mujer</option>
+                    <option value="2">Hombre</option>
+                    <option value="3">Otro</option>
+                    <option value="4">Prefiero no decirlo</option>
+                </select> <br>
+
+                  <label>Teléfono móvil</label> <br>
+                  <input type="text" name="txt-telefono" id="txt-telefono"> <br>
+
+                  <label>Ubicación</label> <br>
+                  <select name="slc-sexo" id="slc-sexo" >
+                      <option>País</option>
+                      <option value="1">Honduras</option>
+                      <option value="2">CostaRica</option>
+                      <option value="3">El Salvador/option>
+                      <option value="5">Nicaragua</option>
+                      <option value="6">Panamá</option>
+                      <option value="7">Belice</option>
+                      <option value="8">México</option>
+                      <option value="9">EEUU</option>
+                      <option value="10">Guatemala</option>
+
+                      <option value="4">Nicaragua</option>
+                  </select> <br>
+                </div>
+              </div>
+            </div>
+      </div>
+
+ </body>
+</html>
