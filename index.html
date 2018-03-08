@@ -15,38 +15,53 @@
 
     <!--Barra de navegacion de YouTube -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="barra">
-        <button class="btn btn-light" type="button">
-            <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#barraNav" role="button" aria-expanded="true" aria-controls="barraNav"></span>
-        </button>
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">
-                <div class="logo-container align-middle">
-                    <img src="img/yt-logo-2.png" alt="" class="logo">
-                </div>
-            </a>
-            <div class="container" id="busqueda">
-                <form class="form-inline">
-                    <input type="text" placeholder="Buscar" class="form-control d-none d-sm-block" id="search-box">
-                    <button class="btn btn-light btn-circle" id="search-btn">
-                        <i class="fas fa-search fa-lg"></i>
-                    </button>
-                </form>
-            </div>
-            <form class="form-inline ml-auto">
-                <button class="btn btn-light btn-circle end-btn">
-                    <i class="fas fa-upload fa-lg"></i>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top barra">
+        <div class="row no-gutters">
+            <span class="col-1">
+                <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#barraNav" aria-expanded="true" aria-controls="barraNav">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <button class="btn btn-light btn-circle end-btn">
-                    <i class="fas fa-th fa-lg"></i>
-                </button>
-                <button class="btn btn-light btn-circle end-btn">
-                    <i class="fas fa-ellipsis-v fa-lg"></i>
-                </button>
-                <button class="btn btn-outline-danger btn-sm " id="user-btn">
-                    ACCEDER
-                </button>
-            </form>
+            </span>
+            <span class="col-11">
+                <span class="row">
+                    <div class="navbar-nav">
+                        <span class="col-1 no-padding pb-1">
+                            <a class="nav-item nav-link active" href="index.html">
+                                <div class="logo-container align-middle">
+                                    <img src="img/yt-logo-2.png" alt="" class="logo">
+                                </div>
+                            </a>
+                        </span>
+                        <span class="col-xl-7 col-lg-6 col-md-5 col-sm-4">
+                            <div class="container" id="busqueda">
+                                <form class="form-inline">
+                                    <input type="text" placeholder="Buscar" class="form-control collapse collapse.show" id="search-box">
+                                    <button type="button" data-toggle="collapse" data-target="#search-box" aria-expanded="false" aria-controls="search-box" class="btn btn-light col-1"
+                                        id="search-btn">
+                                        <i class="fas fa-search fa-lg"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </span>
+                        <span class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-xs-6 ml-5">
+                            <form class="form-inline ml-auto">
+                                <button class="btn btn-light btn-circle end-btn" onclick="location='form-videos.html';">
+                                    <i class="fas fa-upload fa-lg"></i>
+                                </button>
+                                <button class="btn btn-light btn-circle end-btn">
+                                    <i class="fas fa-th fa-lg"></i>
+                                </button>
+                                <button class="btn btn-light btn-circle end-btn">
+                                    <i class="fas fa-ellipsis-v fa-lg"></i>
+                                </button>
+                                <button class="btn btn-outline-danger end-btn btn-sm mt-1">
+                                    ACCEDER
+                                </button>
+                            </form>
+                        </span>
+                    </div>
+                </span>
+            </span>
         </div>
     </nav>
 
@@ -54,7 +69,7 @@
     <div class="container-fluid no-padding mt-5">
         <div class="row no-gutters">
             <!--Barra lateral de YouTube-->
-            <aside class="sidebar col-xl-2 col-lg-2 col-md-2 nav flex-column collapse d-none d-lg-block" id="barraNav">
+            <aside class="sidebar col-xl-2 col-lg-2 col-md-2 nav flex-column collapse navbar-collapse d-none d-lg-block" id="barraNav">
                 <div class="border-bottom pt-2 pb-2">
                     <a href="index.html" title="Inicio">
                         <div class="entrada">
@@ -197,45 +212,254 @@
                     <div class="content-name">
                         Recomendados
                     </div>
-                    <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate dolorum unde sapiente laudantium, amet sed explicabo
-                        earum cum animi voluptates tempora exercitationem! Nesciunt, fugiat illum earum voluptatum veniam
-                        quaerat?
+                    <div class="row border-bottom">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-
                     <div class="content-name">
                         Canal # 1
                     </div>
-                    <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate dolorum unde sapiente laudantium, amet sed explicabo
-                        earum cum animi voluptates tempora exercitationem! Nesciunt, fugiat illum earum voluptatum veniam
-                        quaerat?
+                    <div class="row border-bottom">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
                     <div class="content-name">
                         Canal # 2
                     </div>
-                    <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate dolorum unde sapiente laudantium, amet sed explicabo
-                        earum cum animi voluptates tempora exercitationem! Nesciunt, fugiat illum earum voluptatum veniam
-                        quaerat?
+                    <div class="row border-bottom">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
                     <div class="content-name">
                         Canal # 3
                     </div>
-                    <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate dolorum unde sapiente laudantium, amet sed explicabo
-                        earum cum animi voluptates tempora exercitationem! Nesciunt, fugiat illum earum voluptatum veniam
-                        quaerat?
+                    <div class="row border-bottom">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                            <a href="#">
+                                <div class="video-miniatura">
+                                    <img class="img-fluid" src="img/miniatura.jpg">
+                                    <div class="descripcion">
+                                        <a href="#" class="video-title">Titulo del Video</a>
+                                        <br>
+                                        <p class="yt-color video-text">Nombre del canal
+                                            <br>numero visualizaciones
+                                            <br>Tiempo desde que subio el video</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-
-
-
                 </div>
             </main>
-
         </div>
+
+        <script src="js/bootstrap.js"></script>
 
 </body>
 
