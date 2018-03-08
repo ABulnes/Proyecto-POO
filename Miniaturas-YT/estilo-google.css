@@ -1,0 +1,69 @@
+
+.encabezado-google .logo{
+    height: 36px;
+    width: 112px;
+    margin-top: 20px; 
+    margin-left: 20px;
+}
+
+.encabezado-google .btn-primary{
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Open Sans', arial;
+    color: #555;
+    font-size: 38px;
+    font-weight: 300;
+    margin-top: 27px;
+    margin-bottom: 50px;
+}
+
+.container p{
+    text-align: center;
+    font-family: 'Open Sans', arial;
+    color: #737373;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.container .logo-strip{
+    margin-top: 20px;
+}
+
+.container .devices{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container .formulario{
+    box-sizing: border-box;
+    border-radius: 0;
+    background-color: #f1f1f1;
+    width: 400px;
+    height: 600px;
+    padding: 25px;
+    margin: 5px 40px;
+}
+
+.container .side-info h2{
+    text-align: center;
+    font-family: 'Open Sans', Arial;
+    color: #737373;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.container .formulario .inn{
+    width: 300px;
+}
+
+.container  label{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
