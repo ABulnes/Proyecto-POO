@@ -1,0 +1,325 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifS;
+}
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-light:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.main {
+  background-color: #fafafa;
+  padding: 0.75rem 0.75rem;
+}
+
+.sidebar {
+  background-color: #f5f5f5;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.logo-container {
+  width: 80px;
+  height: 24px;
+  flex: none;
+  align-content: auto;
+}
+.end-btn {
+  margin: 0px 10px;
+}
+.no-padding {
+  padding: 0px 0px;
+}
+
+.fas {
+  color: #888888;
+}
+
+.entrada:hover {
+  background-color: rgba(173, 164, 164, 0.432);
+}
+.string-text {
+  padding: 8px 24px;
+  color: #888888;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.footer-links,
+.history-links {
+  color: #888888;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12.5px;
+}
+
+.history-links {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+.footer-links:hover,
+.history-links:hover {
+  color: #888888;
+  text-decoration: none;
+}
+/* Codigo importado de Codepen.io*/
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.42857;
+}
+
+.entrada a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.entrada a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.img-size {
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+}
+
+.icon-margin {
+  margin-right: 40px;
+}
+
+.text-margin {
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+
+.content {
+  width: 100%;
+  height: 15%;
+  border-bottom: 0.5px solid rgb(230, 230, 230);
+  margin-bottom: 1.2rem;
+}
+
+.body-grid {
+  width: 856px;
+  height: 100%;
+  margin: 20px 80px;
+  padding: 5px 5px;
+}
+
+.body-grid-tendencias {
+  width: 856px;
+  height: 100%;
+  margin: 20px 80px;
+  padding: 5px 5px;
+}
+
+.content-name {
+  margin: 5px 0px 20px;
+  font-weight: bold;
+}
+
+.no-bottom {
+  border-bottom: none;
+}
+
+.video-cont {
+  height: 13%;
+}
+
+.mt-5 {
+  margin-top: 3.3rem !important;
+}
+
+.ml-5 {
+  margin-left: 6rem !important;
+}
+
+.sm-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.list-links {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.list-links:hover {
+  color: #000000;
+}
+
+.bold-0 {
+  font-weight: normal;
+}
+.upload-box,
+.transmition-box,
+.foto-box,
+.suggestion-box {
+  width: 713px;
+  height: 355px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
+}
+.item-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.transmition-box,
+.foto-box {
+  width: 280px;
+  height: 145px;
+  margin: 10px 0px;
+  font-size: 13.5px;
+  padding: 8px 8px;
+}
+
+.suggestion-box {
+  height: 136px;
+  font-size: 12px;
+  padding: 10px 10px;
+}
+
+.yt-color {
+  color: #888888;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 30px;
+  flex: none;
+  margin: 0px 10px 0px 20px;
+}
+
+.yt-color:hover {
+  color: #888888;
+}
+
+.barra {
+  box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
+}
+
+.video-miniatura .descripcion{
+   height: 5%;
+}
+
+.video-title{
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.video-text{
+  font-size: 12px;
+}
+
+.video-title:hover{
+  color: #000000;
+  text-decoration: none;
+}
+
+.descripcion{
+  font-size: 14px;
+  text-align: left;
+}
+#link-acceso {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#busqueda {
+  width: 720px;
+  height: 32px;
+  margin: 0px 40px 0px 70px;
+  padding: 0px 0px;
+}
+
+#search-box {
+  width: 80%;
+}
+
+#search-btn {
+  width: 5%;
+  margin: 0px 2px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#btn-accesos {
+  border: 0.5px solid #888888;
+}
+
+
+/* Estilo para las miniaturas de las tendencias*/
+
+main .body-grid-tendencias .video-miniatura-tendencias{
+  margin: 10px 10px;
+  padding: 0;
+  width: 245px;
+  height: 140px;  
+}
+
+main .body-grid-tendencias a{
+  color: #000000;
+  text-decoration: none;
+}
+
+main .body-grid-tendencias p{
+  font-size: 13px;
+}
+
+main .body-grid-tendencias h4{
+  font-weight: 400;
+}
+
+/*Fin estilo para las miniaturas de las tendencias*/
+
+
+/*Estilo para los banners de las subpaginas(musica,deportes,juegos)*/
+
+main .header-canal .banner-foto{
+  width: 100%;
+  height: 200px;
+}
+
+/*para el boton de suscribirse*/
+main .header-canal .nombre-canal .btn .suscribirse{
+  border-radius: 2px;
+  padding: 10px 15px;
+  background-color: #ff0000;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+/*fin estilo para los banners de las subpaginas(musica,deportes,juegos)*/
