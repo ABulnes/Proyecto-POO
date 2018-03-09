@@ -294,6 +294,10 @@ body {
   color: #000000;
 }
 
+.selected{
+  color: red;
+}
+
 
 /*Codigo incrustado desde https://mladenplavsic.github.io/bootstrap-navbar-sidebar/#*/
 @media (min-width: 768px) {
