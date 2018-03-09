@@ -10,7 +10,6 @@ body {
 .btn-light {
   background-color: #ffffff;
   border-color: #ffffff;
-  border-radius: 50%;
 }
 
 .btn-light:hover {
@@ -91,7 +90,7 @@ body {
   width: 30px;
   height: 30px;
   padding: 6px 0px;
-  border-radius: 15px;
+  border-radius: 50%;
   text-align: center;
   line-height: 1.42857;
 }
@@ -134,6 +133,14 @@ body {
   margin: 20px 80px;
   padding: 5px 5px;
 }
+
+.body-grid-tendencias {
+  width: 856px;
+  height: 100%;
+  margin: 20px 80px;
+  padding: 5px 5px;
+}
+
 .content-name {
   margin: 5px 0px 20px;
   font-weight: bold;
@@ -151,9 +158,99 @@ body {
   margin-top: 3.3rem !important;
 }
 
-.sm-text{
-    font-size: 16px;
-    text-align: center;
+.ml-5 {
+  margin-left: 6rem !important;
+}
+
+.sm-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.list-links {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.list-links:hover {
+  color: #000000;
+}
+
+.bold-0 {
+  font-weight: normal;
+}
+.upload-box,
+.transmition-box,
+.foto-box,
+.suggestion-box {
+  width: 713px;
+  height: 355px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
+}
+.item-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.transmition-box,
+.foto-box {
+  width: 280px;
+  height: 145px;
+  margin: 10px 0px;
+  font-size: 13.5px;
+  padding: 8px 8px;
+}
+
+.suggestion-box {
+  height: 136px;
+  font-size: 12px;
+  padding: 10px 10px;
+}
+
+.yt-color {
+  color: #888888;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 30px;
+  flex: none;
+  margin: 0px 10px 0px 20px;
+}
+
+.yt-color:hover {
+  color: #888888;
+}
+
+.barra {
+  box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
+}
+
+.video-miniatura .descripcion{
+   height: 5%;
+}
+
+.video-title{
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.video-text{
+  font-size: 12px;
+}
+
+.video-title:hover{
+  color: #000000;
+  text-decoration: none;
+}
+
+.descripcion{
+  font-size: 14px;
+  text-align: left;
 }
 #link-acceso {
   color: red;
@@ -176,12 +273,53 @@ body {
   width: 5%;
   margin: 0px 2px;
   text-align: center;
+  border-radius: 50%;
 }
 
-#user-btn {
-  margin: 0px 20px 0px 20px;
+#btn-accesos {
+  border: 0.5px solid #888888;
 }
 
-#barra {
-  box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
+
+/* Estilo para las miniaturas de las tendencias*/
+
+main .body-grid-tendencias .video-miniatura-tendencias{
+  margin: 10px 10px;
+  padding: 0;
+  width: 245px;
+  height: 140px;  
 }
+
+main .body-grid-tendencias a{
+  color: #000000;
+  text-decoration: none;
+}
+
+main .body-grid-tendencias p{
+  font-size: 13px;
+}
+
+main .body-grid-tendencias h4{
+  font-weight: 400;
+}
+
+/*Fin estilo para las miniaturas de las tendencias*/
+
+
+/*Estilo para los banners de las subpaginas(musica,deportes,juegos)*/
+
+main .header-canal .banner-foto{
+  width: 100%;
+  height: 200px;
+}
+
+/*para el boton de suscribirse*/
+main .header-canal .nombre-canal .btn{
+  border-radius: 2px;
+  padding: 10px 15px;
+  background-color: #ff0000;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+/*fin estilo para los banners de las subpaginas(musica,deportes,juegos)*/
