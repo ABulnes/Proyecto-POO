@@ -20,7 +20,8 @@ body {
 .main {
   background-color: #fafafa;
   padding: 0.75rem 0.75rem;
-  height: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .sidebar {
@@ -177,7 +178,9 @@ body {
 .upload-box,
 .transmition-box,
 .foto-box,
-.suggestion-box {
+.suggestion-box,
+.creator-box,
+.account-box {
   width: 713px;
   height: 355px;
   background-color: #ffffff;
@@ -191,20 +194,49 @@ body {
 .transmition-box,
 .foto-box {
   width: 280px;
-  height: 145px;
+  height: auto;
   margin: 10px 0px;
   font-size: 13.5px;
   padding: 8px 8px;
 }
 
+.creator-box {
+  width: 215px;
+  height: auto;
+  font-size: 0.7rem;
+  text-align: left;
+}
 .suggestion-box {
-  height: 136px;
+  height: auto;
   font-size: 12px;
   padding: 10px 10px;
 }
 
+.account-box {
+  margin-left: 30px;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  margin-bottom: auto;
+}
+.cta-box {
+  height: 44px;
+  width: 931px;
+}
+.social-box {
+  background-color: #f3f3f3;
+  border: 1px solid #888888;
+  width: 30%;
+  height: 100%;
+  padding: 5px 5px;
+}
+
 .yt-color {
   color: #888888;
+}
+
+.header-account-color {
+  color: #555555;
 }
 
 .footer-logo {
@@ -245,6 +277,24 @@ body {
   font-size: 14px;
   text-align: left;
 }
+
+.no-decoration:hover {
+  text-decoration: none;
+}
+
+.xs-text {
+  font-size: 0.7rem;
+}
+
+.md-text {
+  font-size: 1em;
+}
+
+.help:hover {
+  color: #000000;
+}
+
+
 /*Codigo incrustado desde https://mladenplavsic.github.io/bootstrap-navbar-sidebar/#*/
 @media (min-width: 768px) {
   .navbar-fixed-left {
@@ -257,15 +307,40 @@ body {
   }
 }
 
-.navbar-fixed-left, .navbar-fixed-right {
+.navbar-fixed-left,
+.navbar-fixed-right {
   margin-top: 62px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1030;
   overflow: scroll;
-  
 }
+
+.account-header {
+  padding: 24px 0 0 25px;
+}
+
+.ml-6 {
+  margin-left: 3.4rem !important;
+}
+
+.steps {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 13px;
+  margin-right: 10px;
+  color: #fff;
+  background: #bbb;
+  font-weight: 500;
+  text-align: center;
+}
+.bar-config {
+  box-shadow: 1px -4px 20px 0px #555555;
+}
+
 #link-acceso {
   color: red;
   text-decoration: none;
