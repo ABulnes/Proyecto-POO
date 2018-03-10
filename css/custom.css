@@ -10,7 +10,6 @@ body {
 .btn-light {
   background-color: #ffffff;
   border-color: #ffffff;
-  border-radius: 50%;
 }
 
 .btn-light:hover {
@@ -21,6 +20,8 @@ body {
 .main {
   background-color: #fafafa;
   padding: 0.75rem 0.75rem;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .sidebar {
@@ -91,7 +92,7 @@ body {
   width: 30px;
   height: 30px;
   padding: 6px 0px;
-  border-radius: 15px;
+  border-radius: 50%;
   text-align: center;
   line-height: 1.42857;
 }
@@ -151,10 +152,199 @@ body {
   margin-top: 3.3rem !important;
 }
 
-.sm-text{
-    font-size: 16px;
-    text-align: center;
+.ml-5 {
+  margin-left: 6rem !important;
 }
+
+.sm-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.list-links {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.list-links:hover {
+  color: #000000;
+}
+
+.bold-0 {
+  font-weight: normal;
+}
+.upload-box,
+.transmition-box,
+.foto-box,
+.suggestion-box,
+.creator-box,
+.account-box {
+  width: 713px;
+  height: 355px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
+}
+.item-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.transmition-box,
+.foto-box {
+  width: 280px;
+  height: auto;
+  margin: 10px 0px;
+  font-size: 13.5px;
+  padding: 8px 8px;
+}
+
+.creator-box {
+  width: 215px;
+  height: auto;
+  font-size: 0.7rem;
+  text-align: left;
+}
+.suggestion-box {
+  height: auto;
+  font-size: 12px;
+  padding: 10px 10px;
+}
+
+.account-box {
+  margin-left: 30px;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  margin-bottom: auto;
+}
+.cta-box {
+  height: 44px;
+  width: 931px;
+}
+.social-box {
+  background-color: #f3f3f3;
+  border: 1px solid #888888;
+  width: 30%;
+  height: 100%;
+  padding: 5px 5px;
+}
+
+.yt-color {
+  color: #888888;
+}
+
+.header-account-color {
+  color: #555555;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 30px;
+  flex: none;
+  margin: 0px 10px 0px 20px;
+}
+
+.yt-color:hover {
+  color: #888888;
+}
+
+.barra {
+  box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
+}
+
+.video-miniatura .descripcion {
+  height: 5%;
+}
+
+.video-title {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.video-text {
+  font-size: 12px;
+}
+
+.video-title:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.descripcion {
+  font-size: 14px;
+  text-align: left;
+}
+
+.no-decoration:hover {
+  text-decoration: none;
+}
+
+.xs-text {
+  font-size: 0.7rem;
+}
+
+.md-text {
+  font-size: 1em;
+}
+
+.help:hover {
+  color: #000000;
+}
+
+.selected{
+  color: red;
+}
+
+
+/*Codigo incrustado desde https://mladenplavsic.github.io/bootstrap-navbar-sidebar/#*/
+@media (min-width: 768px) {
+  .navbar-fixed-left {
+    right: auto !important;
+    left: 0 !important;
+    border-width: 0 1px 0 0 !important;
+    width: 250px;
+    height: 100vh;
+    border-radius: 0;
+  }
+}
+
+.navbar-fixed-left,
+.navbar-fixed-right {
+  margin-top: 62px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  overflow: scroll;
+}
+
+.account-header {
+  padding: 24px 0 0 25px;
+}
+
+.ml-6 {
+  margin-left: 3.4rem !important;
+}
+
+.steps {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 13px;
+  margin-right: 10px;
+  color: #fff;
+  background: #bbb;
+  font-weight: 500;
+  text-align: center;
+}
+.bar-config {
+  box-shadow: 1px -4px 20px 0px #555555;
+}
+
 #link-acceso {
   color: red;
   text-decoration: none;
@@ -176,12 +366,52 @@ body {
   width: 5%;
   margin: 0px 2px;
   text-align: center;
+  border-radius: 50%;
 }
 
-#user-btn {
-  margin: 0px 20px 0px 20px;
+#btn-accesos {
+  border: 0.5px solid #888888;
 }
 
-#barra {
-  box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
+/* Estilo para las miniaturas de las tendencias*/
+
+main .body-grid-tendencias .video-miniatura-tendencias{
+  margin: 10px 10px;
+  padding: 0;
+  width: 245px;
+  height: 140px;  
 }
+
+main .body-grid-tendencias a{
+  color: #000000;
+  text-decoration: none;
+}
+
+main .body-grid-tendencias p{
+  font-size: 13px;
+}
+
+main .body-grid-tendencias h4{
+  font-weight: 400;
+}
+
+/*Fin estilo para las miniaturas de las tendencias*/
+
+
+/*Estilo para los banners de las subpaginas(musica,deportes,juegos)*/
+
+main .header-canal .banner-foto{
+  width: 100%;
+  height: 200px;
+}
+
+/*para el boton de suscribirse*/
+main .header-canal .nombre-canal .btn .suscribirse{
+  border-radius: 2px;
+  padding: 10px 15px;
+  background-color: #ff0000;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+/*fin estilo para los banners de las subpaginas(musica,deportes,juegos)*/
