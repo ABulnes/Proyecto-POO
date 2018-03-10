@@ -205,6 +205,7 @@ body {
   height: auto;
   font-size: 0.7rem;
   text-align: left;
+<<<<<<< HEAD
 }
 .suggestion-box {
   height: auto;
@@ -324,6 +325,127 @@ body {
 .account-header {
   padding: 24px 0 0 25px;
 }
+=======
+}
+.suggestion-box {
+  height: auto;
+  font-size: 12px;
+  padding: 10px 10px;
+}
+
+.account-box {
+  margin-left: 30px;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  margin-bottom: auto;
+}
+.cta-box {
+  height: 44px;
+  width: 931px;
+}
+.social-box {
+  background-color: #f3f3f3;
+  border: 1px solid #888888;
+  width: 30%;
+  height: 100%;
+  padding: 5px 5px;
+}
+
+.yt-color {
+  color: #888888;
+}
+
+.header-account-color {
+  color: #555555;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 30px;
+  flex: none;
+  margin: 0px 10px 0px 20px;
+}
+
+.yt-color:hover {
+  color: #888888;
+}
+
+.barra {
+  box-shadow: 0px 2px 0.5px 0px #cfcfcfc9;
+}
+
+.video-miniatura .descripcion {
+  height: 5%;
+}
+
+.video-title {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.video-text {
+  font-size: 12px;
+}
+
+.video-title:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.descripcion {
+  font-size: 14px;
+  text-align: left;
+}
+
+.no-decoration:hover {
+  text-decoration: none;
+}
+
+.xs-text {
+  font-size: 0.7rem;
+}
+
+.md-text {
+  font-size: 1em;
+}
+
+.help:hover {
+  color: #000000;
+}
+
+.selected{
+  color: red;
+}
+
+
+/*Codigo incrustado desde https://mladenplavsic.github.io/bootstrap-navbar-sidebar/#*/
+@media (min-width: 768px) {
+  .navbar-fixed-left {
+    right: auto !important;
+    left: 0 !important;
+    border-width: 0 1px 0 0 !important;
+    width: 250px;
+    height: 100vh;
+    border-radius: 0;
+  }
+}
+
+.navbar-fixed-left,
+.navbar-fixed-right {
+  margin-top: 62px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  overflow: scroll;
+}
+
+.account-header {
+  padding: 24px 0 0 25px;
+}
+>>>>>>> origin/master
 
 .ml-6 {
   margin-left: 3.4rem !important;
@@ -371,6 +493,7 @@ body {
 
 #btn-accesos {
   border: 0.5px solid #888888;
+<<<<<<< HEAD
 }
 
 /* Estilo para las miniaturas de las tendencias*/
@@ -385,6 +508,8 @@ main .body-grid-tendencias .video-miniatura-tendencias{
 main .body-grid-tendencias a{
   color: #000000;
   text-decoration: none;
+=======
+>>>>>>> origin/master
 }
 
 main .body-grid-tendencias p{
